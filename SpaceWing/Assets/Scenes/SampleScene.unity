@@ -534,6 +534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 5259426557830816377, guid: ff18fb89d0d4e8f449db89d93f4b0254, type: 3}
   fireDelta: 0.5
+  prefabRotation: {x: 0, y: 90, z: 90}
 --- !u!4 &1169126651
 Transform:
   m_ObjectHideFlags: 0
@@ -594,7 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde4f6d9aa22c10448721c04ed3b039e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  total_asteroides: 100
+  total_asteroides: 200
   speed: 1
   asteroid: {fileID: 2226605040987937581, guid: a720339778190fe40a6e289aebac4afe,
     type: 3}
