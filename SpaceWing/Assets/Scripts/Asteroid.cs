@@ -22,7 +22,7 @@ public class Asteroid : MonoBehaviour
        rend = GetComponent<Renderer>(); // pega o renderizador do objeto
        noiseTex = new Texture2D(18, 18); // a textura gerada será de 18x18
        pix = new Color[noiseTex.width * noiseTex.height]; //pixels da textura
-       rend.material.SetTexture("_MainTex", noiseTex); // textura cor
+    //    rend.material.SetTexture("_MainTex", noiseTex); // textura cor
        rend.material.SetTexture("_DispTex", noiseTex); //textura deslocamento
        CalcNoise(); // calcula a textura de ruido
    }

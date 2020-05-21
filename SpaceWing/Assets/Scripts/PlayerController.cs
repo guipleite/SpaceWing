@@ -35,6 +35,12 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         anim.SetFloat("Turning", x);
         anim.SetFloat("Running", z);
+        if(z <0.0f){
+            anim.SetBool("isBack", true);
+        }
+        else{
+            anim.SetBool("isBack", false);
+        }
 
         // Rotaciona personagem
         transform.Rotate(0, x * speed * 10 * Time.deltaTime, 0);

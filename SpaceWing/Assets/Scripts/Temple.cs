@@ -7,7 +7,7 @@ public class Temple : MonoBehaviour
 {
    void OnTriggerEnter(Collider other) {
        if (other.CompareTag("Player")) {
-           SceneManager.LoadScene("Temple");
+           SceneManager.LoadScene("TempleInterior");
        }
    }
 }

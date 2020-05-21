@@ -5,7 +5,7 @@ using UnityEngine;
 public class Space : MonoBehaviour
 {
  
-   public int total_asteroides = 100;
+   public int total_asteroides = 500;
    public float speed = 1.0f;
  
    public GameObject asteroid;

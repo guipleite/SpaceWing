@@ -1,7 +1,10 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/Space.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/Planet.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LaserCannon.unity
+- path: Assets/Scenes/TempleInterior.unity
   isLoaded: 0
   isActive: 0

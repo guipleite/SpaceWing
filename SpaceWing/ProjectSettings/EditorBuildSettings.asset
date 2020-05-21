@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Space.unity
+    guid: e86a4b118295fa745b169f080a17b5cb
+  - enabled: 1
+    path: Assets/Scenes/Planet.unity
+    guid: 91daf42be4d1a02448d2f74ba9429a0e
+  - enabled: 1
+    path: Assets/Scenes/TempleInterior.unity
+    guid: 1b242626e1afc4a4d820f2df89981793
   m_configObjects: {}

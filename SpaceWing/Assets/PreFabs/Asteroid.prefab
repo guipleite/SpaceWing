@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2508399003129266905}
   m_Layer: 0
   m_Name: Asteroid
-  m_TagString: Untagged
+  m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,6 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xOrg: 0
   yOrg: 0
-  scale: 1
+  scale: 2
   explosionPrefab: {fileID: 4046264715902352285, guid: 90bad0328ecb7874c951cd2baac69c4d,
     type: 3}

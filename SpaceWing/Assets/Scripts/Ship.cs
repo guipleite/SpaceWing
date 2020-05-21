@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ship : MonoBehaviour
 {
  
-    float torque = 0.1f;
+    float torque = 0.2f;
     float speed = 1.0f;
     public GameObject bullet;
 
@@ -15,7 +15,15 @@ public class Ship : MonoBehaviour
     private float fireSide;
     private bool fireRight = false;
     public new Vector3 prefabRotation;
+    public CameraShake cameraShake;
 
+    void OnCollisionEnter(Collision collision) {
+       if (collision.gameObject.tag == "Asteroid") {        
+            Debug.Log("Ouch")  ;     
+            StartCoroutine(cameraShake.Shake(0.3f, 0.6f));
+
+        }
+    }
     void FixedUpdate()
     {
  
