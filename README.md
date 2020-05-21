@@ -1,2 +1,4 @@
 # SpaceWing
-3d x-wing game made with unity
+3d space game made with unity
+
+![alt text](./Capture.JPG)
