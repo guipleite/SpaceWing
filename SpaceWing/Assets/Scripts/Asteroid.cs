@@ -12,6 +12,9 @@ public class Asteroid : MonoBehaviour
    private Texture2D noiseTex; // textura de ruido
    private Color[] pix;    // pixels da imagem
    private Renderer rend;  // renderizador do objeto
+
+    public AudioSource audioSource;
+    public AudioClip sound;
  
    void Start()
    {
@@ -62,6 +65,7 @@ public class Asteroid : MonoBehaviour
     void OnCollisionEnter(Collision collision)
    {
        if(collision.gameObject.name == "BlasterFire(Clone)"){
+            audioSource.PlayOneShot(sound);
             ContactPoint contact = collision.contacts[0];
             Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
             Vector3 pos = contact.point;
